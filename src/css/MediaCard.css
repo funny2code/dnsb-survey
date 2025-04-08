@@ -1,0 +1,34 @@
+.media-card {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1%;
+  padding: 5px 0;
+  border-radius: 2px;
+  justify-content: center;
+}
+
+.media-card h1 {
+  text-align: start;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  margin-left: 0.2rem;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+    .media-card {
+        width: 50%;
+        margin: 20px;
+        padding: 10px 20px;
+        max-height: 80rem;
+    }
+
+    .media-card h1 {
+      text-align: start;
+      margin: 0;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+   
+}

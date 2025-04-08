@@ -1,0 +1,28 @@
+.edge-container {
+  position: relative; /* To position the box relative to the edge */
+  display: inline-block; /* Or block, depending on your layout needs */
+}
+
+.edge-container img {
+  display: block; /* Prevents space below the edge */
+  cursor: pointer;
+}
+
+.click-me-box {
+  position: absolute;
+  bottom: -30px; /* Adjust position as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0; /* Hide by default */
+  transition: opacity 0.3s ease; /* Smooth transition */
+  text-align: center;
+}
+
+.edge-container:hover .click-me-box {
+  opacity: 1; /* Show on hover */
+}

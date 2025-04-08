@@ -1,0 +1,88 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/Home_Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.media-card-group {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.intro-button-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+}
+
+.intro-logo-container {
+  background: #edd1c3;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.intro-btn {
+  border: 3px solid #53847e;
+  border-radius: 5px;
+  height: 35px;
+  width: 80px;
+  color: white
+}
+
+.intro-btn-primary {
+  background: #fc4f00;
+}
+
+.intro-btn-secondary {
+  background: #7f7f7f;
+}
+
+.intro-logo {
+  width: 100px;
+  padding: 10px;
+}
+
+@media (min-width: 500px) {
+  .introduction {
+    height: 100vh;
+  }
+
+  .media-card-group {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .intro-button-group {
+    align-self: flex-end;
+    width: 30%;
+  }
+
+  .intro-btn {
+    height: 45px;
+    font-size: 2rem;
+  }
+
+  .intro-logo-container {
+    height: 50px;
+  }
+
+  .intro-logo {
+    width: 150px;
+    padding: 10px;
+  }
+}

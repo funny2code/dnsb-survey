@@ -1,0 +1,12 @@
+.top_button-group {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.top_button {
+  background: var(--color-disabled);
+  margin: 0;
+  align-self: flex-end;
+}

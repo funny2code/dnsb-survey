@@ -1,0 +1,9 @@
+.compare-container {
+    width: 100%;
+}
+
+.compare-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

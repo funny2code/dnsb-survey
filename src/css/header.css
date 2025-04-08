@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  justify-content: start;
+}
+
+.logo {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

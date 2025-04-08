@@ -1,0 +1,9 @@
+.bottom_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin:  10px;
+}
+
+.bottom_button {
+  background: var(--color-disabled);
+}

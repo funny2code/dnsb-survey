@@ -1,0 +1,9 @@
+.main-section {
+   margin: 10px; 
+}
+
+.finish-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}

@@ -1,0 +1,9 @@
+.middle_buttons-group {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1px;
+}
+
+.middle_button {
+  background: var(--color-disabled);
+}

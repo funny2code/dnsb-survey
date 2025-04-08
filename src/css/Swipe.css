@@ -1,0 +1,14 @@
+.swipe__add-to-story {
+  position: absolute;
+  left: 0;
+  height: 240px;
+  width: 70px;
+  display: flex;
+}
+
+.swipe__arrow {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  user-select: none;
+}

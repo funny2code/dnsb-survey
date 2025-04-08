@@ -1,0 +1,9 @@
+.choice-rapper{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ECC0C0;
+}

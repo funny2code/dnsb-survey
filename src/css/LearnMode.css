@@ -1,0 +1,22 @@
+.body_content p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding: 10px;
+}
+
+.body_content span {
+  color: var(--color-secondary);
+}
+
+.learn_mode_navigator {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learnmode-cue {
+  overflow: auto;
+}

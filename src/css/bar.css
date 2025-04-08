@@ -1,0 +1,77 @@
+:root {
+  --bar-radius: 0 10px 10px 0;
+}
+
+.bar-set {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 50%;
+}
+.bar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.progress_bar-container {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  border-radius: var(--bar-radius);
+  user-select: none;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.progress_bar-base {
+  width: 20%;
+  height: 80%;
+  background-color: #aeaeae;
+  border-radius: 10px 0 0 10px;
+  border: 3px solid #aeaeae;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4px;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.progress_bar {
+  height: 100%;
+  background-color: #65aaaf;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: var(--bar-radius);
+}
+
+.progress-counter {
+  color: #333;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 10px 0;
+  display: flex;
+}
+
+#progress-label {
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+.counter-arrow {
+  width: 30px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+
+#percentage {
+  font-size: 10px;
+  align-self: center;
+}

@@ -1,0 +1,36 @@
+.timer-group {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 3rem;
+  align-items: center;
+  margin: 0 2px 0 10px;
+  align-self: flex-end;
+}
+
+.timer {
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0.7rem;
+  background-color: #fffefe;
+  border: solid 1px black;
+  align-items: center;
+  height: 20px;
+  width: 7.5rem;
+}
+
+.timer-pause {
+  background-color: black;
+  color: white;
+}
+
+.timer-arrow {
+  width: 20px;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+
+.label {
+  font-size: 1.8rem;
+}

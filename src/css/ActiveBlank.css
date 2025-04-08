@@ -1,0 +1,9 @@
+.active-blank-border {
+  width: fit-content;
+  height: 17.21px;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 4px solid rgba(11, 45, 153, 0.5);
+}

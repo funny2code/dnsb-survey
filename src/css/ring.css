@@ -1,0 +1,158 @@
+.ring-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.ring-set {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@media (min-width: 730px) {
+  .ring-container {
+    width: 70%;
+  }
+}
+
+.ring-control {
+  position: relative;
+}
+
+.ring-progress {
+  pointer-events: stroke;
+  user-select: none;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ring-segment {
+  right: 0;
+  top: 50%;
+}
+
+@media (min-width: 730px) {
+  .ring-segment {
+    right: 0;
+    top: 50%;
+  }
+}
+
+.ring-list-container {
+  background-color: #d5d5d5;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  user-select: none;
+  border: 1px solid black;
+}
+
+@media (min-width: 730px) {
+  .ring-list-container {
+    font-size: 1.1rem;
+    padding: 2rem 0.1rem;
+  }
+}
+
+tr:not(:last-child) td {
+  border-collapse: collapse;
+  border-bottom: 1px solid dodgerblue;
+  user-select: none;
+}
+
+td {
+  padding: 5px;
+}
+
+.ring-checker {
+  width: 10px;
+  height: 10px;
+  border-radius: 1px;
+  border: 1px solid;
+}
+
+#ring-list {
+  text-align: start;
+  padding-right: 1px;
+  white-space: nowrap;
+}
+
+.ring-label {
+  font-size: 1.5rem;
+  pointer-events: "none";
+  font-weight: 600;
+}
+
+.ring-number {
+  font-size: 2rem;
+  pointer-events: "none";
+  font-weight: 900;
+}
+
+.polygon-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 70px;
+  bottom: 48%;
+  right: 46%;
+  z-index: 2;
+}
+
+@media (min-width: 500px) {
+  .polygon-container {
+    top: 18%;
+    right: 47%;
+  }
+}
+
+.polygon {
+  cursor: pointer;
+  pointer-events: auto;
+  width: 1.5rem;
+}
+.polygon:hover {
+  fill: red;
+}
+
+.ring-lever {
+  position: absolute;
+  width: 7rem;
+  cursor: pointer;
+  left: 0%;
+  top: -20%;
+}
+
+@media (min-width: 500px) {
+  .ring-lever {
+    top: -35px;
+  }
+}
+
+.ring-heading {
+  margin: 0 0 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 60%;
+  align-self: center;
+}
+
+.ring-instruction {
+  margin:0 ;
+  font-size: 1.5rem;
+}
+
+.ring-buttons {
+  align-self: center;
+  width: 22.75rem;
+}

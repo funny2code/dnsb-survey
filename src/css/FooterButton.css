@@ -1,0 +1,16 @@
+.footer_buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 2.5rem;
+}
+
+.footer_buttons-row {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 28px;
+}
+
+.footer_button {
+  background: var(--color-disabled);
+}

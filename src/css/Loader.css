@@ -1,0 +1,30 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.loader-text {
+  margin: 0;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.6rem solid rgb(234, 231, 231);
+  border-top: 0.6rem solid rgb(0, 102, 255);
+  border-right: 0.6rem solid rgb(0, 102, 255);
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner Keyframes */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

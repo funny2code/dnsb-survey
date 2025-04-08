@@ -1,0 +1,24 @@
+
+.sticky-arrow {
+  width: 30px;
+  position: absolute;
+  left: 80%;
+  top: -50px;
+  z-index: 999;
+}
+
+.singleChoice-sticky {
+  fill: #fec7a5;
+}
+
+.multipleChoice-sticky {
+  fill: #a7e2ee;
+}
+
+.rank-sticky {
+  fill: #f1c06c;
+}
+
+.rate-sticky {
+  fill: #5dffa2;
+}

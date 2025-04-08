@@ -1,0 +1,72 @@
+.triangle-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.triangle-svg {
+  overflow: visible;
+  width: 50%;
+  height: 60%;
+  margin-bottom: 3rem;
+  user-select: none;
+  padding: 15px;
+}
+
+@media (min-width: 500px) {
+  .triangle-svg {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+.triangle {
+  fill: dodgerblue;
+  stroke: #45546a;
+  stroke-width: 1.5rem;
+}
+
+polyline {
+  z-index: 999;
+}
+
+.center-text {
+  font-size: 2rem;
+  fill: white;
+}
+
+.draggable-circle {
+  fill: #c0d8fc;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.draggable-circle.glow {
+  fill: gold;
+}
+
+.triangle-heading {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .triangle-heading {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 0 25px;
+  }
+}
+
+.corner-text {
+  font-size: 2.5rem;
+}
+
+.snowflakes {
+  border: 1px solid green;
+  fill: indigo;
+}

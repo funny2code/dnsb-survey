@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "https://dev.nsdbsurveys.com/narrative-php/natr.php",
+  "localEndpoint": "http://localhost:5000/reply",
+  "remoteEndpoint": "https://dev.nsdbsurveys.com/researchlibs/narrative-php/natr.php"
+}
